@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Emotional Support Coffee, v2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend for a second version of a basic e-commerce coffee shop, meant to solidify my react-rails knowledge. It will utilize a RESTful API, created with ruby on rails (Coffee_Shopv2).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+This application will have the following components in the front-end: 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. A navbar header linking to the storefront, an about page, the landing pge (homepage), the login/signup page, and the cart. 
+2. A landing page with a "featured products" section. Each product will have a "more details" button routing to a details page for that product, as well as an "add to cart" button, which will add the product to a shopping cart. There will also be a "shop all" button routing to the storefront.
+3. A storefront listing all of the products, each with a "more details" button routing to a details page for that product and an "add to cart" button, which will add the product to a shopping cart.
+4. Details pages for each product displaying information about the product, including additional photos and info on its process. This page will also include a working "add to cart" button.
+4. A shopping cart listing all of the products the user plans to buy. If there are multiples of a product, those multiples will be listed in the same line with an accurate and updateable "quantity" field. 
+5. A full checkout process utilizing Stripe or Square. 
+6. A footer displaying contact information, including location, hours, and social media links (with the appropriate icons). 
